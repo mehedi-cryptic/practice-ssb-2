@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+}
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+header{
+    background-color: rgb(68, 43, 43);
+   color: white;
+}
+.container{
+    width: 1200px;
+    margin: auto;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.center{
+    align-items: center;
+}
+
+.logo{
+    flex-basis: 15%;
+    max-width: 15%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.logo img{
+ max-width: 100%;
+}
+nav{
+ flex-basis: 85%;
+ box-sizing: border-box;
+ max-width: 85%;
+ padding: 15px;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    padding: 15px;   
+}
+#mehedi :hover{
+    color: rgb(201, 241, 19);
+    cursor:pointer;
+}
+
+.about-us{
+    padding: 100px 0;
+}
+
+ .about-us h1{
+     font-size: 50px;
+     font-weight: 900;
+     line-height: 1;
+     letter-spacing: -4px;
+     color: rgb(109, 54, 54);
+ }
+ .about-us p{
+     margin-top: 20px;
+     font-size: 24px;
+    color: rgb(109, 54, 54);
+    font-weight: 300;
+    letter-spacing: -1px;
+ }
+
+.gallery{
+    background-color: rgb(68, 43, 43);
+    padding: 150px 0;
+    
+}
+.col{
+    flex-basis: 20%;
+    max-width: 20%;
+    padding: 15px;
+    
+}
+.col img{
+    max-width: 100%;
+    height: 500px;
+    width: 390px;
+}
+.shop-now{
+    padding: 120px 0;
+    
+}
+.product-image{
+    flex-basis: 30%;
+    max-width: 30%;
+    padding: 15px;
+}
+.product-details{
+    flex-basis: 30%;
+    max-width: 30%;
+    padding: 15px;
+}
+img{
+    max-width: 100%;
+}
+.justify{
+    justify-content: center;
+}
+.product-detail h2{
+    font-size: 35px;
+    font-weight: 900;
+}
+
+.product-detail ul{
+ list-style: none;
+ padding: 0;
+ display: flex;
+margin: 14px 0;
+}
+.product-detail p{
+    font-size: 18px;
+}
+
+
+.product-detail ul li span{
+    height: 40px;
+    width: 40px;
+    background: red;
+    display: block;
+}
+
+.product-detail ul li{
+   padding-right: 4px;
+   
+}
+.product-detail button{
+    background-color: #2B2B2B;
+    color: #fff;
+    padding: 14px 50px;
+    font-size: 20px;
+    border: 0;
+    border-radius: 7px;
+}
+#aaa{
+ background: red;
+ 
+}
+#baa{
+  background: blue;
+  
+}
+#caaa{
+ background-color: yellow;
+ 
+}
+#da{
+     background-color: black;
+    
+}
+.product-detail h3{
+    margin: 10px 0;
+    font-size: 28px;
+    font-weight: 900;
+}
+.product-detail h3 span{
+    margin: 10px 0;
+    font-size: 28px;
+    font-weight: 600;
+    color: rgb(184, 160, 160);
+    text-decoration: line-through;
+}
+.product-image .flex div{
+    flex-basis: 25%;
+    max-width: 25%;
+    padding: 5px;
+
+}
+.product-image .flex div img{
+    height: 102px;
+    width: 100%;
+    object-fit: cover;
+}
